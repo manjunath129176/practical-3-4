@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Factorial {
-    // Recursive factorial function
+  
     public static long factorial(int n) {
         if (n == 0 || n == 1)
             return 1;
