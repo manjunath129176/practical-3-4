@@ -23,14 +23,15 @@ def BFS(adj):
     return res
 
 
-adj = [
-    [1, 5],
-    [0, 2, 3, 4],
-    [0, 3],
-    [1],
-    [6, 1],
-    [1],
-    [3]
-]
+# User input
+v = int(input("Enter number of vertices: "))
+
+adj = []
+
+for i in range(v):
+    neighbours = list(map(int, input(
+        f"Enter neighbours of vertex {i}: "
+    ).split()))
+    adj.append(neighbours)
 
 print("BFS Traversal:", BFS(adj))
