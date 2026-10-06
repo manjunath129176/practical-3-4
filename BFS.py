@@ -22,8 +22,6 @@ def BFS(adj):
 
     return res
 
-
-# User input
 v = int(input("Enter number of vertices: "))
 
 adj = []
