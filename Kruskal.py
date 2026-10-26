@@ -1,4 +1,3 @@
-
 def kruskal(vertices, edges):
     edges.sort(key=lambda edge: edge[2])
 
